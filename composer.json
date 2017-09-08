@@ -1,0 +1,11 @@
+{
+    "name": "sisterlai/learn-swoole",
+    "description": "mark something when learning swoole",
+    "authors": [
+        {
+            "name": "laijie",
+            "email": "laijie1994@163.com"
+        }
+    ],
+    "require": {}
+}
