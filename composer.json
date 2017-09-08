@@ -26,7 +26,7 @@
             "robot/"
         ],
         "files": [
-
+            "lib/class.phperror.php"
         ]
     }
 }
