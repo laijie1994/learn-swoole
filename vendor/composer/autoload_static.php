@@ -8,6 +8,7 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '93e8f3302c89cc6683c1dbd7fd0dd806' => __DIR__ . '/../..' . '/lib/class.phperror.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -129,11 +130,16 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
     );
 
     public static $classMap = array (
+        'Lib_Functions' => __DIR__ . '/../..' . '/lib/lib.functions.php',
+        'Lib_Mysqli' => __DIR__ . '/../..' . '/lib/lib.mysqli.php',
         'client\\Client' => __DIR__ . '/../..' . '/client/Client.php',
         'lib\\Functions' => __DIR__ . '/../..' . '/lib/Functions.php',
         'lib\\Log' => __DIR__ . '/../..' . '/lib/Log.php',
         'lib\\httpClient' => __DIR__ . '/../..' . '/lib/httpClient.php',
         'lib\\httpManager' => __DIR__ . '/../..' . '/lib/httpManager.php',
+        'mucache' => __DIR__ . '/../..' . '/lib/class.mucache.php',
+        'mumongo' => __DIR__ . '/../..' . '/lib/class.mumongo.php',
+        'muredis' => __DIR__ . '/../..' . '/lib/class.muredis.php',
         'robot\\Login' => __DIR__ . '/../..' . '/robot/Login.php',
         'robot\\Main' => __DIR__ . '/../..' . '/robot/Main.php',
         'robot\\WebSocket' => __DIR__ . '/../..' . '/robot/WebSocket.php',

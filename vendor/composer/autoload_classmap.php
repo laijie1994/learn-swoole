@@ -6,11 +6,16 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Lib_Functions' => $baseDir . '/lib/lib.functions.php',
+    'Lib_Mysqli' => $baseDir . '/lib/lib.mysqli.php',
     'client\\Client' => $baseDir . '/client/Client.php',
     'lib\\Functions' => $baseDir . '/lib/Functions.php',
     'lib\\Log' => $baseDir . '/lib/Log.php',
     'lib\\httpClient' => $baseDir . '/lib/httpClient.php',
     'lib\\httpManager' => $baseDir . '/lib/httpManager.php',
+    'mucache' => $baseDir . '/lib/class.mucache.php',
+    'mumongo' => $baseDir . '/lib/class.mumongo.php',
+    'muredis' => $baseDir . '/lib/class.muredis.php',
     'robot\\Login' => $baseDir . '/robot/Login.php',
     'robot\\Main' => $baseDir . '/robot/Main.php',
     'robot\\WebSocket' => $baseDir . '/robot/WebSocket.php',
