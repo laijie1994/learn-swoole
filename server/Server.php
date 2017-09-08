@@ -1,5 +1,7 @@
 <?php
 
+namespace server;
+
 class Server
 {
     private $serv;
