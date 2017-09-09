@@ -98,7 +98,7 @@ class Log
         $sock = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
         $msg = json_encode(["data" => $data, "fileName"=>$fileName, "methodName" => $methodName]);
         $len = strlen($msg);
-        socket_sendto($sock, $msg, $len, 0, '127.0.0.1', 9501);
+        socket_sendto($sock, $msg, $len, 0, '127.0.0.1', 9502);
         socket_close($sock);
     }
 
