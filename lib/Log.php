@@ -55,7 +55,7 @@ class Log
      * @param $data
      * @param $methodName
      */
-    public function tcpLog($data, $methodName)
+    public static function tcpLog($data, $methodName)
     {
         //创建一个socket套接流
         $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
@@ -93,7 +93,7 @@ class Log
      * @param $data
      * @param $methodName
      */
-    public function udpLog($data, $fileName, $methodName)
+    public static function udpLog($data, $fileName, $methodName)
     {
         $sock = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
         $msg = json_encode(["data" => $data, "fileName"=>$fileName, "methodName" => $methodName]);

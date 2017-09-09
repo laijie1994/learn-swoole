@@ -4,6 +4,7 @@ namespace server;
 
 use lib\Log;
 
+include "../ini.php";
 /**
  * udp log server
  * User: 赖杰
