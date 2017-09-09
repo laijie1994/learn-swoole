@@ -21,7 +21,9 @@ $serv->on('Packet', function ($serv, $data, $clientInfo) {
     var_dump($clientInfo);
     //这里把收到的客户端发来的数据写日志记录
     $str = json_decode($data, true);
-    Log::$str["methodName"]($str["data"], $str["fileName"]);
+    var_dump($str);
+    $methodName = $str["methodName"];
+    Log::$methodName($str["data"], $str["fileName"]);
 });
 
 //启动服务器
