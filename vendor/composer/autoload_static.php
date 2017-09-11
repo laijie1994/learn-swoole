@@ -45,6 +45,7 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
             'Psr\\Log\\' => 8,
             'Protobuf\\Compiler\\' => 18,
             'Protobuf\\' => 9,
+            'PhpAmqpLib\\' => 11,
         ),
         'M' => 
         array (
@@ -108,6 +109,10 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
         'Protobuf\\' => 
         array (
             0 => __DIR__ . '/..' . '/protobuf-php/protobuf/src',
+        ),
+        'PhpAmqpLib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-amqplib/php-amqplib/PhpAmqpLib',
         ),
         'Monolog\\' => 
         array (
