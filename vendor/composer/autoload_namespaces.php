@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'google\\protobuf' => array($vendorDir . '/protobuf-php/google-protobuf-proto/src'),
+    'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
 );
