@@ -11,7 +11,8 @@
         "monolog/monolog": "1.22.1",
         "protobuf-php/protobuf": "~0.1.2",
         "protobuf-php/protobuf-plugin": "^0.1.2",
-        "php-amqplib/php-amqplib": ">=2.6.1"
+        "php-amqplib/php-amqplib": ">=2.6.1",
+        "joshcam/mysqli-database-class": "dev-master"
     },
     "autoload": {
         "psr-4": {
