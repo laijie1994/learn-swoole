@@ -5,7 +5,7 @@ include "./ini.php";
 echo "<pre/>";
 
 $db = new Mysqlidb(Array(
-    'host' => 'localhost',
+    'host' => '127.0.0.1',
     'username' => 'root',
     'password' => 'MyNewPass4!',
     'db' => 'dadayi',
@@ -23,7 +23,6 @@ if (!$db->ping()) {
 }
 
 $data = Array (
-    "id" => "",
     "user_id" => 1,
     "content" => 'test this mysql class can use or not',
     "pid" => 1,
@@ -32,6 +31,8 @@ $data = Array (
     "updated_at" => $db->now(),
 );
 $id = $db->insert ('comments', $data);
+
+var_dump($id);
 if($id)
     echo 'user was created. Id=' . $id;
 
