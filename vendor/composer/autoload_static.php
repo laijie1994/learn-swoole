@@ -14,6 +14,10 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
     );
 
     public static $prefixLengthsPsr4 = array (
+        't' => 
+        array (
+            'think\\' => 6,
+        ),
         's' => 
         array (
             'server\\' => 7,
@@ -71,6 +75,10 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
     );
 
     public static $prefixDirsPsr4 = array (
+        'think\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/topthink/think-orm/src',
+        ),
         'server\\' => 
         array (
             0 => __DIR__ . '/../..' . '/server',

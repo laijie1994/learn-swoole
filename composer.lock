@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2909c71ea3c4dd8b086961e2d6be395f",
+    "content-hash": "2d8bf6f0069a19901089717fecca4f13",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -727,6 +727,43 @@
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
             "time": "2017-10-02T06:42:24+00:00"
+        },
+        {
+            "name": "topthink/think-orm",
+            "version": "0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-orm.git",
+                "reference": "558980dfcc159d54e3cb6b983e6892017adf7765"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/top-think/think-orm/558980dfcc159d54e3cb6b983e6892017adf7765.zip",
+                "reference": "558980dfcc159d54e3cb6b983e6892017adf7765",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "think\\": "src"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "liu21st",
+                    "email": "liu21st@gmail.com"
+                }
+            ],
+            "description": "think orm",
+            "time": "2017-10-27T07:57:28+00:00"
         },
         {
             "name": "zendframework/zend-code",

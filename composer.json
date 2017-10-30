@@ -12,7 +12,8 @@
         "protobuf-php/protobuf": "~0.1.2",
         "protobuf-php/protobuf-plugin": "^0.1.2",
         "php-amqplib/php-amqplib": ">=2.6.1",
-        "joshcam/mysqli-database-class": "dev-master"
+        "joshcam/mysqli-database-class": "dev-master",
+        "topthink/think-orm": "^0.2.0"
     },
     "autoload": {
         "psr-4": {
