@@ -9,6 +9,13 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/staticres/js/datatables/css/DT_bootstrap.css"/>
+
+    <script src="/staticres/js/datepicker/bootstrap-datetimepicker.min.js"></script>
+    <script src="/staticres/js/datatables/jquery.dataTables.min.js"></script>
+    <script src="/staticres/js/datatables/extras/ZeroClipboard.js"></script>
+    <script src="/staticres/js/datatables/extras/TableTools.min.js"></script>
+    <script src="/staticres/js/datatables/DT_bootstrap.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,11 +25,67 @@
     <![endif]-->
 </head>
 <body>
-<h1>你好，世界！</h1>
+<h1>使用dataTables插件分页</h1>
+<table id="datatables" class="table table-hover table-condensed table-bordered">
+    <thead>
+    <tr class="active">
+        <th>推送记录ID</th>
+        <th>任务时间</th>
+        <th>action</th>
+        <th>标题</th>
+        <th>内容</th>
+        <th>分段距离(延时秒数)</th>
+        <th>目标数量</th>
+        <th>任务状态</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>aa</td>
+        <td>bb</td>
+        <td>cc</td>
+        <td>dd</td>
+        <td>aa</td>
+        <td>bb</td>
+        <td>cc</td>
+        <td>dd</td>
+    </tr>
+    </tbody>
+</table>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script>
+    //页面初始化时加载
+    $(document).ready(function(){
+        // dataTables table tools
+        $('#datatables').dataTable({
+            "sDom": '<"row"<"top"Tf>r>t<"bottom"pli><"clear">',
+            //"<'row-fluid'<'span6'l><'span6'f>r>t<'row-fluid'<'span6'i><'span6'p>>"
+            "sPaginationType": "bootstrap",
+            "oTableTools": {
+                "aButtons": [
+                    "copy",// "print",
+                    {
+                        "sExtends":    "collection",
+                        "sButtonText": 'Save <span class="caret" />',
+                        "aButtons":    [
+                            "xls",
+                            "csv",
+                            {
+                                "sExtends": "pdf",
+                                "sPdfOrientation": "landscape",
+                                "sPdfMessage": "Your custom message would go here."
+                            }
+                        ]
+                    }
+                ],
+                "sSwfPath": "/rs/js/datatables/swf/copy_csv_xls_pdf.swf"
+            }
+        });
+    });//end-ready
+</script>
 </body>
 </html>
