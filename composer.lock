@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d8bf6f0069a19901089717fecca4f13",
+    "content-hash": "a568e01d9ba4ebbce4a9221f38503c20",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -727,6 +727,46 @@
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
             "time": "2017-10-02T06:42:24+00:00"
+        },
+        {
+            "name": "tigerb/easy-mipush",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TIGERB/easy-mipush.git",
+                "reference": "624ef4f7ca0fe852a49bc601c74451bd2185f88f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/TIGERB/easy-mipush/624ef4f7ca0fe852a49bc601c74451bd2185f88f.zip",
+                "reference": "624ef4f7ca0fe852a49bc601c74451bd2185f88f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mipush\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "TIGERB",
+                    "email": "tigerbcode@gmail.com"
+                }
+            ],
+            "description": "easy to use mipush parallelly",
+            "homepage": "http://tiegrb.cn/",
+            "keywords": [
+                "mipush"
+            ],
+            "time": "2016-09-30T03:37:55+00:00"
         },
         {
             "name": "topthink/think-orm",

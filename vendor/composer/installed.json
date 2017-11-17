@@ -2557,5 +2557,47 @@
             }
         ],
         "description": "think orm"
+    },
+    {
+        "name": "tigerb/easy-mipush",
+        "version": "v0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TIGERB/easy-mipush.git",
+            "reference": "624ef4f7ca0fe852a49bc601c74451bd2185f88f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/TIGERB/easy-mipush/624ef4f7ca0fe852a49bc601c74451bd2185f88f.zip",
+            "reference": "624ef4f7ca0fe852a49bc601c74451bd2185f88f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2016-09-30T03:37:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mipush\\": "/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "TIGERB",
+                "email": "tigerbcode@gmail.com"
+            }
+        ],
+        "description": "easy to use mipush parallelly",
+        "homepage": "http://tiegrb.cn/",
+        "keywords": [
+            "mipush"
+        ]
     }
 ]

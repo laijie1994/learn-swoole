@@ -65,6 +65,7 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
         'M' => 
         array (
             'Monolog\\' => 8,
+            'Mipush\\' => 7,
         ),
         'D' => 
         array (
@@ -152,6 +153,10 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Mipush\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tigerb/easy-mipush',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
