@@ -1,0 +1,16 @@
+{
+    "name": "alexlai/make-composer-packaage",
+    "description": "to make an composer package",
+    "type": "library",
+    "require": {
+        "php": "^7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "laijie",
+            "email": "laijie1994@163.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
