@@ -16,7 +16,7 @@
         "topthink/think-orm": "^0.2.0",
         "tigerb/easy-mipush": "^0.1.0",
         "inhere/console": "dev-master",
-        "alexlai/make-composer-packaage": "^1.0"
+        "alexlai/make-composer-packaage": "dev-master"
     },
     "autoload": {
         "psr-4": {

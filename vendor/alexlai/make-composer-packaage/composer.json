@@ -12,5 +12,11 @@
             "email": "laijie1994@163.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "controller/",
+            "Model\\": "model/"
+        }
+    },
     "minimum-stability": "stable"
 }

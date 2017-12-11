@@ -4,26 +4,32 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "894892ecbaa5f2091f732161e7d3edd7",
+    "content-hash": "2e5b10b94b026d9813a40b7b049ffecc",
     "packages": [
         {
             "name": "alexlai/make-composer-packaage",
-            "version": "v1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laijie1994/make-composer-package.git",
-                "reference": "3ccdaf3002b24d0fea3f218ce64092ee47a6fb0b"
+                "reference": "91c059965d1ea6a976cf54afd5d75444e9026a1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/laijie1994/make-composer-package/3ccdaf3002b24d0fea3f218ce64092ee47a6fb0b.zip",
-                "reference": "3ccdaf3002b24d0fea3f218ce64092ee47a6fb0b",
+                "url": "https://files.phpcomposer.com/files/laijie1994/make-composer-package/91c059965d1ea6a976cf54afd5d75444e9026a1f.zip",
+                "reference": "91c059965d1ea6a976cf54afd5d75444e9026a1f",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1"
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Controller\\": "controller/",
+                    "Model\\": "model/"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -35,7 +41,7 @@
                 }
             ],
             "description": "to make an composer package",
-            "time": "2017-12-11T06:37:32+00:00"
+            "time": "2017-12-11 07:15:18"
         },
         {
             "name": "doctrine/inflector",
@@ -2613,7 +2619,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "joshcam/mysqli-database-class": 20,
-        "inhere/console": 20
+        "inhere/console": 20,
+        "alexlai/make-composer-packaage": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

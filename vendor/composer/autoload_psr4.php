@@ -25,9 +25,11 @@ return array(
     'Protobuf\\' => array($vendorDir . '/protobuf-php/protobuf/src'),
     'PhpAmqpLib\\' => array($vendorDir . '/php-amqplib/php-amqplib/PhpAmqpLib'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'Model\\' => array($vendorDir . '/alexlai/make-composer-packaage/model'),
     'Mipush\\' => array($vendorDir . '/tigerb/easy-mipush'),
     'Inhere\\Console\\' => array($vendorDir . '/inhere/console/src'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib/Doctrine/Common/Inflector'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
+    'Controller\\' => array($vendorDir . '/alexlai/make-composer-packaage/controller'),
 );

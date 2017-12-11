@@ -66,6 +66,7 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
         'M' => 
         array (
             'Monolog\\' => 8,
+            'Model\\' => 6,
             'Mipush\\' => 7,
         ),
         'I' => 
@@ -77,6 +78,10 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\Common\\Inflector\\' => 26,
             'DeepCopy\\' => 9,
+        ),
+        'C' => 
+        array (
+            'Controller\\' => 11,
         ),
     );
 
@@ -159,6 +164,10 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
+        'Model\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/alexlai/make-composer-packaage/model',
+        ),
         'Mipush\\' => 
         array (
             0 => __DIR__ . '/..' . '/tigerb/easy-mipush',
@@ -178,6 +187,10 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Controller\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/alexlai/make-composer-packaage/controller',
         ),
     );
 

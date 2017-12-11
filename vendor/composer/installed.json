@@ -2666,25 +2666,31 @@
     },
     {
         "name": "alexlai/make-composer-packaage",
-        "version": "v1.0",
-        "version_normalized": "1.0.0.0",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
             "url": "https://github.com/laijie1994/make-composer-package.git",
-            "reference": "3ccdaf3002b24d0fea3f218ce64092ee47a6fb0b"
+            "reference": "91c059965d1ea6a976cf54afd5d75444e9026a1f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/laijie1994/make-composer-package/3ccdaf3002b24d0fea3f218ce64092ee47a6fb0b.zip",
-            "reference": "3ccdaf3002b24d0fea3f218ce64092ee47a6fb0b",
+            "url": "https://files.phpcomposer.com/files/laijie1994/make-composer-package/91c059965d1ea6a976cf54afd5d75444e9026a1f.zip",
+            "reference": "91c059965d1ea6a976cf54afd5d75444e9026a1f",
             "shasum": ""
         },
         "require": {
             "php": "^7.1"
         },
-        "time": "2017-12-11T06:37:32+00:00",
+        "time": "2017-12-11T07:15:18+00:00",
         "type": "library",
-        "installation-source": "dist",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Controller\\": "controller/",
+                "Model\\": "model/"
+            }
+        },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
