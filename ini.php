@@ -9,4 +9,4 @@ require WWWROOT."vendor/autoload.php";
 
 define("PATH_LIB", WWWROOT . "/lib/");
 define("PATH_ROBOT", WWWROOT . "/robot/");
-define("PATH_DAT", WWWROOT . "data/");
+define("PATH_DAT", WWWROOT . "/data/");
