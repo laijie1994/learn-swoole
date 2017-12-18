@@ -25,6 +25,7 @@ return array(
     'Protobuf\\' => array($vendorDir . '/protobuf-php/protobuf/src'),
     'PhpAmqpLib\\' => array($vendorDir . '/php-amqplib/php-amqplib/PhpAmqpLib'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'Mongodb\\' => array($vendorDir . '/fifths/php-mongo/src/Mongodb'),
     'Model\\' => array($vendorDir . '/alexlai/make-composer-packaage/model'),
     'Mipush\\' => array($vendorDir . '/tigerb/easy-mipush'),
     'Inhere\\Console\\' => array($vendorDir . '/inhere/console/src'),

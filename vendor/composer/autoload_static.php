@@ -64,6 +64,7 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
         'M' => 
         array (
             'Monolog\\' => 8,
+            'Mongodb\\' => 8,
             'Model\\' => 6,
             'Mipush\\' => 7,
         ),
@@ -161,6 +162,10 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Mongodb\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fifths/php-mongo/src/Mongodb',
         ),
         'Model\\' => 
         array (

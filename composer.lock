@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6784898460e4264200ffabc789a11eea",
+    "content-hash": "3646a8651083620a0307ad51abf95795",
     "packages": [
         {
             "name": "alexlai/make-composer-packaage",
@@ -109,6 +109,41 @@
                 "string"
             ],
             "time": "2017-07-22T12:18:28+00:00"
+        },
+        {
+            "name": "fifths/php-mongo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fifths/php-mongo.git",
+                "reference": "74fe4f23583652e280e9943bc0c33531fa6db360"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/fifths/php-mongo/74fe4f23583652e280e9943bc0c33531fa6db360.zip",
+                "reference": "74fe4f23583652e280e9943bc0c33531fa6db360",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mongodb\\": "src/Mongodb/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "lee"
+                }
+            ],
+            "description": "php mongodb class",
+            "time": "2017-06-20 07:58:53"
         },
         {
             "name": "inhere/console",
@@ -2574,7 +2609,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "inhere/console": 20,
-        "alexlai/make-composer-packaage": 20
+        "alexlai/make-composer-packaage": 20,
+        "fifths/php-mongo": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -2655,5 +2655,42 @@
             }
         ],
         "description": "to make an composer package"
+    },
+    {
+        "name": "fifths/php-mongo",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fifths/php-mongo.git",
+            "reference": "74fe4f23583652e280e9943bc0c33531fa6db360"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/fifths/php-mongo/74fe4f23583652e280e9943bc0c33531fa6db360.zip",
+            "reference": "74fe4f23583652e280e9943bc0c33531fa6db360",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "time": "2017-06-20T07:58:53+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Mongodb\\": "src/Mongodb/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "lee"
+            }
+        ],
+        "description": "php mongodb class"
     }
 ]
