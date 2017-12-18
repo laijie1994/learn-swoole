@@ -16,7 +16,8 @@
         "tigerb/easy-mipush": "^0.1.0",
         "inhere/console": "dev-master",
         "alexlai/make-composer-packaage": "dev-master",
-        "fifths/php-mongo":"dev-master"
+        "fifths/php-mongo":"dev-master",
+        "mongodb/mongodb": "^1.2"
     },
     "autoload": {
         "psr-4": {

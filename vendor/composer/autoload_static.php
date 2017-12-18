@@ -9,6 +9,7 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        '3a37ebac017bc098e9a86b35401e7a68' => __DIR__ . '/..' . '/mongodb/mongodb/src/functions.php',
         '93e8f3302c89cc6683c1dbd7fd0dd806' => __DIR__ . '/../..' . '/lib/class.phperror.php',
     );
 
@@ -65,6 +66,7 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
         array (
             'Monolog\\' => 8,
             'Mongodb\\' => 8,
+            'MongoDB\\' => 8,
             'Model\\' => 6,
             'Mipush\\' => 7,
         ),
@@ -166,6 +168,10 @@ class ComposerStaticInit11d48f0f8c5b2b69474d5065e860447d
         'Mongodb\\' => 
         array (
             0 => __DIR__ . '/..' . '/fifths/php-mongo/src/Mongodb',
+        ),
+        'MongoDB\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mongodb/mongodb/src',
         ),
         'Model\\' => 
         array (
