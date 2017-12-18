@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e5b10b94b026d9813a40b7b049ffecc",
+    "content-hash": "6784898460e4264200ffabc789a11eea",
     "packages": [
         {
             "name": "alexlai/make-composer-packaage",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laijie1994/make-composer-package.git",
-                "reference": "91c059965d1ea6a976cf54afd5d75444e9026a1f"
+                "reference": "a24b483067ce646e0c5e18a37cce50b9d62c0e70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/laijie1994/make-composer-package/91c059965d1ea6a976cf54afd5d75444e9026a1f.zip",
-                "reference": "91c059965d1ea6a976cf54afd5d75444e9026a1f",
+                "url": "https://files.phpcomposer.com/files/laijie1994/make-composer-package/a24b483067ce646e0c5e18a37cce50b9d62c0e70.zip",
+                "reference": "a24b483067ce646e0c5e18a37cce50b9d62c0e70",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                 }
             ],
             "description": "to make an composer package",
-            "time": "2017-12-11 07:15:18"
+            "time": "2017-12-11 10:15:02"
         },
         {
             "name": "doctrine/inflector",
@@ -116,12 +116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/inhere/php-console.git",
-                "reference": "891d84f989ce6b8ca95a943e9995b334928b40bd"
+                "reference": "ccee99924d6298e488e7d1795a9e7ae34bb43adf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/inhere/php-console/891d84f989ce6b8ca95a943e9995b334928b40bd.zip",
-                "reference": "891d84f989ce6b8ca95a943e9995b334928b40bd",
+                "url": "https://files.phpcomposer.com/files/inhere/php-console/ccee99924d6298e488e7d1795a9e7ae34bb43adf.zip",
+                "reference": "ccee99924d6298e488e7d1795a9e7ae34bb43adf",
                 "shasum": ""
             },
             "require": {
@@ -147,7 +147,7 @@
                     "homepage": "http://www.yzone.net/"
                 }
             ],
-            "description": "a php console library, provide console argument parse,color style,user interactive, information show.",
+            "description": "a php console library, provide console argument parse, console controller/command run, color style, user interactive, information show.",
             "homepage": "https://github.com/inhere/php-console",
             "keywords": [
                 "cli",
@@ -158,52 +158,7 @@
                 "console-color",
                 "library"
             ],
-            "time": "2017-11-29 16:22:56"
-        },
-        {
-            "name": "joshcam/mysqli-database-class",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ThingEngineer/PHP-MySQLi-Database-Class.git",
-                "reference": "30d7d0fe8bfe2142b48f23527787a2bc9de0639a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/ThingEngineer/PHP-MySQLi-Database-Class/30d7d0fe8bfe2142b48f23527787a2bc9de0639a.zip",
-                "reference": "30d7d0fe8bfe2142b48f23527787a2bc9de0639a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "MysqliDb.php",
-                    "dbObject.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Josh Campbell",
-                    "email": "josh.lee.campbell@gmail.com",
-                    "homepage": "https://github.com/joshcam",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Alexander V. Butenko",
-                    "email": "a.butenka@gmail.com",
-                    "homepage": "http://smarttechdo.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "PHP MySQL Wrapper and object mapper which utilizes MySQLi and prepared statements",
-            "time": "2017-11-30 10:29:41"
+            "time": "2017-12-18 08:52:01"
         },
         {
             "name": "monolog/monolog",
@@ -585,16 +540,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v3.4.1",
+            "version": "v3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "2cdef78de8f54f68ff16a857e710e7302b47d4c7"
+                "reference": "9f21adfb92a9315b73ae2ed43138988ee4913d4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/console/2cdef78de8f54f68ff16a857e710e7302b47d4c7.zip",
-                "reference": "2cdef78de8f54f68ff16a857e710e7302b47d4c7",
+                "url": "https://files.phpcomposer.com/files/symfony/console/9f21adfb92a9315b73ae2ed43138988ee4913d4e.zip",
+                "reference": "9f21adfb92a9315b73ae2ed43138988ee4913d4e",
                 "shasum": ""
             },
             "require": {
@@ -650,20 +605,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-02T18:20:11+00:00"
+            "time": "2017-12-14T19:40:10+00:00"
         },
         {
             "name": "symfony/debug",
-            "version": "v4.0.1",
+            "version": "v4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "26a15dab86c3820473716be4f846eac774ad4ad9"
+                "reference": "8c3e709209ce3b952a31c0f4a31ac7703c3d0226"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/debug/26a15dab86c3820473716be4f846eac774ad4ad9.zip",
-                "reference": "26a15dab86c3820473716be4f846eac774ad4ad9",
+                "url": "https://files.phpcomposer.com/files/symfony/debug/8c3e709209ce3b952a31c0f4a31ac7703c3d0226.zip",
+                "reference": "8c3e709209ce3b952a31c0f4a31ac7703c3d0226",
                 "shasum": ""
             },
             "require": {
@@ -706,7 +661,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-21T09:27:49+00:00"
+            "time": "2017-12-12T08:41:51+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -769,16 +724,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v3.4.1",
+            "version": "v3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "db25e810fd5e124085e3777257d0cf4ae533d0ea"
+                "reference": "bb3ef65d493a6d57297cad6c560ee04e2a8f5098"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/process/db25e810fd5e124085e3777257d0cf4ae533d0ea.zip",
-                "reference": "db25e810fd5e124085e3777257d0cf4ae533d0ea",
+                "url": "https://files.phpcomposer.com/files/symfony/process/bb3ef65d493a6d57297cad6c560ee04e2a8f5098.zip",
+                "reference": "bb3ef65d493a6d57297cad6c560ee04e2a8f5098",
                 "shasum": ""
             },
             "require": {
@@ -814,7 +769,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-22T12:18:49+00:00"
+            "time": "2017-12-14T19:40:10+00:00"
         },
         {
             "name": "tigerb/easy-mipush",
@@ -1766,16 +1721,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "6.5.4",
+            "version": "6.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "1b2f933d5775f9237369deaa2d2bfbf9d652be4c"
+                "reference": "83d27937a310f2984fd575686138597147bdc7df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/sebastianbergmann/phpunit/1b2f933d5775f9237369deaa2d2bfbf9d652be4c.zip",
-                "reference": "1b2f933d5775f9237369deaa2d2bfbf9d652be4c",
+                "url": "https://files.phpcomposer.com/files/sebastianbergmann/phpunit/83d27937a310f2984fd575686138597147bdc7df.zip",
+                "reference": "83d27937a310f2984fd575686138597147bdc7df",
                 "shasum": ""
             },
             "require": {
@@ -1846,7 +1801,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-12-10T08:06:19+00:00"
+            "time": "2017-12-17T06:31:19+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -2468,16 +2423,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.0.1",
+            "version": "v4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "873417cb9949f07be8852d41e3be5ab6f09e1218"
+                "reference": "a5ee52d155f06ad23b19eb63c31228ff56ad1116"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/yaml/873417cb9949f07be8852d41e3be5ab6f09e1218.zip",
-                "reference": "873417cb9949f07be8852d41e3be5ab6f09e1218",
+                "url": "https://files.phpcomposer.com/files/symfony/yaml/a5ee52d155f06ad23b19eb63c31228ff56ad1116.zip",
+                "reference": "a5ee52d155f06ad23b19eb63c31228ff56ad1116",
                 "shasum": ""
             },
             "require": {
@@ -2522,7 +2477,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-04T18:34:52+00:00"
+            "time": "2017-12-12T08:41:51+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -2618,7 +2573,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "joshcam/mysqli-database-class": 20,
         "inhere/console": 20,
         "alexlai/make-composer-packaage": 20
     },
